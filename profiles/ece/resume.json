@@ -80,7 +80,6 @@
                 "Supports multiple ArgoCD Project \"profiles\" that limit what actions sub-users can make with their application.",
                 "Currently going through adoption proccess for the argo-proj-labs collection of vetted community projects"
             ],
-            // Experiement removing these keywords for space
             "keywords" : [
                 "Golang",
                 "Kubernetes",
@@ -92,7 +91,7 @@
             "startDate" : "2021-01",
             "endDate" : "2021-05",
             "highlights" : [
-                "Used Memory Mapped I/O (MMIO) to build UART and I2C peripheral drivers",
+                "Used Memory Mapped I\/O (MMIO) to build UART and I2C peripheral drivers",
                 "Built an acoustic \"clap\" detector that runs on the STM32 Nucleo Board using I2C for acoustic data and UART to print sensor data to the console"
             ],
             "keywords" : []
