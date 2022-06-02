@@ -4,7 +4,7 @@ on:
     branches:
       - dev
     paths:
-      - 'profiles/*.json'
+      - 'profiles/*/*.json'
       - '.github/workflows/build_dev_profile_resume.yaml'
 
 jobs:
