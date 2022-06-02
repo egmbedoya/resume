@@ -1,11 +1,11 @@
-name: Building New Experimental Resume
+name: Building New Resume
 on:
   push:
     branches:
       - master
     paths:
       - 'resume.json'
-      - '.github/workflows/master/build_resume.yaml'
+      - '.github/workflows/build_resume.yaml'
 
 jobs:
   build:

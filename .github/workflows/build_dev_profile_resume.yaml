@@ -5,7 +5,7 @@ on:
       - dev
     paths:
       - 'profiles/*.json'
-      - '.github/workflows/dev/build_dev_profile_resume.yaml'
+      - '.github/workflows/build_dev_profile_resume.yaml'
 
 jobs:
   #! NOTICE: Make sure to add any new profile names to this matrix if you want it to be generated!

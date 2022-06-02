@@ -5,7 +5,7 @@ on:
       - dev
     paths:
       - 'resume.json'
-      - '.github/workflows/dev/build_dev_resume.yaml'
+      - '.github/workflows/build_dev_resume.yaml'
 
 jobs:
   build:
