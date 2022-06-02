@@ -1,0 +1,45 @@
+name: Building New Experimental Resume
+on:
+  push:
+    branches:
+      - dev
+    paths:
+      - 'resume.json'
+      - '.github/workflows/dev/build_dev_resume.yaml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: 'dev'
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '14'
+
+      - name: Install dependencies if package-lock file was not found
+        run: |
+          npm i -g resume-cli
+          npm i jsonresume-theme-macchiato-ibic
+
+      - name: Build recent resumes
+        continue-on-error: true
+        run: |
+          resume export --theme=jsonresume-theme-macchiato-ibic resume.pdf
+          resume export --theme=jsonresume-theme-macchiato-ibic resume.html
+          mv resume.html index.html
+
+      - name: Update resources
+        uses: test-room-7/action-update-file@v1
+        with:
+          file-path: |
+            resume.pdf
+            index.html
+          commit-msg: Update resources
+          allow-removing: true
+          branch: dev
+          github-token: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,152 @@
+{
+        "basics" : {
+        "name" : "Marco Acea",
+        "email" : "aceamarco@gmail.com",
+        "phone" : "(786) 470-9891",
+        "website" : "https://aceamarco.github.io/resume/",
+        "profiles" : [{
+            "network" : "LinkedIn",
+            "username" : "marco-acea",
+            "url" : "https://www.linkedin.com/in/marco-acea/"
+        },{
+            "network" : "Github",
+            "username" : "aceamarco",
+            "url" : "https://github.com/aceamarco"
+        }]
+    },
+    "education" : [{
+        "institution" : "Carnegie Mellon University",
+        "area" : "Electrical and Computer Engineering",
+        "studyType" : "Bachelor's of Science",
+        "startDate" : "2018-08",
+        "endDate" : "2022-12",
+        "courses" : [
+            "Structure and Design of Digital Systems",
+            "Signals and Systems",
+            "Web App Development",
+            "Intro to Computer Systems",
+            "Intro to Embedded Systems",
+            "Fundamentals of Embedded Control"
+        ]
+    }],
+    "skills": [
+        {
+        "name" : "Programming Languages",
+        "keywords" : [
+            "Python",
+            "Golang",
+            "C",
+            "HTML/JS/CSS",
+            "System Verilog"
+            ]
+        },
+        {
+        "name" : "Software/Frameworks",
+        "keywords" : [
+            "Selenium",
+            "Django",
+            "Kubernetes",
+            "Google Firestore",
+            "Argo CD"
+        ]
+    }],
+    "projects" : [
+        {
+            "name" : "PD Temperature Controller",
+            "startDate" : "2022-01",
+            "endDate" : "2022-05",
+            "highlights" : [
+                "Developed a Proportional-Derivative controller that approaches and holds a desired temperature within a closed chamber",
+                "Designed electrical circuit and built testbench temperature chamber alongside a graphical interface to analyze PD controller performance"
+            ],
+            "keywords" : []
+        },
+        {
+            "name" : "FSM Controller Rollercoaster",
+            "startDate" : "2022-01",
+            "endDate" : "2022-05",
+            "highlights" : [
+                "Developed a finite state machine controller that manages model rollercoaster carts through the track",
+                "Designed sensing and actuating system/circuit on Eagle for model rollercoaster"
+            ],
+            "keywords" : []
+        },
+        {
+            "name" : "ArgoCD AppSource Controller",
+            "startDate" : "2021-05",
+            "endDate" : "2021-08",
+            "highlights" : [
+                "Kubernetes Custom Resource Definitions that gives under-privelaged users permission from admins to create ArgoCD applications automatically",
+                "Supports multiple ArgoCD Project \"profiles\" that limit what actions sub-users can make with their application.",
+                "Currently going through adoption proccess for the argo-proj-labs collection of vetted community projects"
+            ],
+            // Experiement removing these keywords for space
+            "keywords" : [
+                "Golang",
+                "Kubernetes",
+                "ArgoCD"
+            ]
+        },
+        {
+            "name" : "UART and I2C Controller",
+            "startDate" : "2021-01",
+            "endDate" : "2021-05",
+            "highlights" : [
+                "Used Memory Mapped I/O (MMIO) to build UART and I2C peripheral drivers",
+                "Built an acoustic \"clap\" detector that runs on the STM32 Nucleo Board using I2C for acoustic data and UART to print sensor data to the console"
+            ],
+            "keywords" : []
+        },
+        {
+            "name" : "Real Time Kernel",
+            "startDate" : "2021-01",
+            "endDate" : "2021-05",
+            "highlights" : [
+                "Designed and built my own multi-threaded Real Time Operating System (RTOS) with context switching, mutexes, and enforced fixed priority scheduling."
+            ],
+            "keywords" : []
+        },
+        {
+            "name" : "Malloc",
+            "startDate" : "2020-08",
+            "endDate" : "2020-12",
+            "highlights" : [
+                "Implemented my own dynamic memory allocation library in C using both explicit and segregated free lists"
+            ],
+            "keywords" : []
+        },
+        {
+            "name" : "Unix Tiny Shell",
+            "startDate" : "2020-08",
+            "endDate" : "2020-12",
+            "highlights" : [
+                "Developed my own Unix commmand line shell program with support for foreground and background job control using parent/child process control and signal handlers"
+            ],
+            "keywords" : []
+        }
+    ],
+    "work" : [
+        {
+            "company" : "Intuit",
+            "position" : "Software Engineering Intern",
+            "startDate" : "2020-05",
+            "endDate" : "",
+            "highlights" : [
+                "Summer 2022: Returning intern working with the API Mangement Platform team",
+                "Summer 2021: Developed new feature for the ArgoCD project that allows non-admin users to safely create Applications and Projects for themselves within a Kubernetes cluster.",
+                "Summer 2021: Built a Kubernetes custom resource definition that combines Kubernetes' Role Based Access Control System with custom admin defined Project Specifications to manage ArgoCD configurations for non-admin users."
+            ]
+        },
+        {
+            "company" : "23andMe",
+            "position" : "Software Engineering Intern",
+            "startDate" : "2020-07",
+            "endDate" : "2020-09",
+            "highlights" : [
+                "Developed user interface for internal hosting service with the Application Infrastructure Team",
+                "Built Flask app that uses Flask API endpoints to display information about applications (statuses, teams, owners, authentication tokens, etc.)"
+            ]
+        }
+    ]
+}
+

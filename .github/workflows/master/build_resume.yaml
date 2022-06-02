@@ -5,7 +5,7 @@ on:
       - master
     paths:
       - 'resume.json'
-      - '.github/workflows/build_resume.yaml'
+      - '.github/workflows/master/build_resume.yaml'
 
 jobs:
   build:
