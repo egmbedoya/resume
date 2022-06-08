@@ -51,22 +51,14 @@
     }],
     "projects" : [
         {
-            "name" : "PD Temperature Controller",
+            "name" : "PD Temperature Controller, FSM Rollercoaster Controller",
+            "entity": "Fundamentals of Embedded Control",
             "startDate" : "2022-01",
             "endDate" : "2022-05",
             "highlights" : [
                 "Developed a Proportional-Derivative controller that approaches and holds a desired temperature within a closed chamber",
-                "Designed electrical circuit and built testbench temperature chamber alongside a graphical interface to analyze PD controller performance"
-            ],
-            "keywords" : []
-        },
-        {
-            "name" : "FSM Rollercoaster Controller",
-            "startDate" : "2022-01",
-            "endDate" : "2022-05",
-            "highlights" : [
                 "Developed a finite state machine controller that manages model rollercoaster carts through the track",
-                "Designed sensing and actuating system/circuit on Eagle for model rollercoaster"
+                "Designed electrical circuit and built testbenches for both controllers"
             ],
             "keywords" : []
         },
@@ -81,7 +73,7 @@
             ]
         },
         {
-            "name" : "Intro to Embedded Systems: UART and I2C Controller, Real Time Kernel",
+            "name" : "Intro to Embedded Systems: UART/I2C Controller, Real Time Kernel",
             "startDate" : "2021-01",
             "endDate" : "2021-05",
             "highlights" : [
