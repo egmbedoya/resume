@@ -72,7 +72,7 @@
             ]
         },
         {
-            "name" : "Intro to Embedded Systems: UART/I2C Controller, Real Time Kernel",
+            "name" : "UART/I2C Controller and Real Time Kernel",
             "startDate" : "2021-01",
             "endDate" : "2021-05",
             "highlights" : [
@@ -80,16 +80,16 @@
                 "Built an acoustic \"clap\" detector that runs on the STM32 Nucleo Board using I2C for acoustic data and UART to print sensor data to the console",
                 "Designed multi-threaded Real Time Operating System (RTOS) with context switching, mutexes, and enforced fixed priority scheduling."
             ],
-            "keywords" : []
+            "keywords" : ["Intro to Embedded Systems"]
         },
         {
-            "name" : "Intro to Computer Systems: Malloc, Unix Tiny Shell",
+            "name" : "Malloc and Unix Tiny Shell",
             "startDate" : "2020-08",
             "endDate" : "2020-12",
             "highlights" : [
                 "Implemented dynamic memory allocation library in C using both explicit and segregated free lists"
             ],
-            "keywords" : []
+            "keywords" : ["Intro to Computer Systems"]
         }
     ],
     "work" : [
