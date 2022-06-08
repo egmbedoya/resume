@@ -100,8 +100,8 @@
             "startDate" : "2020-05",
             "endDate" : "",
             "highlights" : [
-                "Developed new feature for the ArgoCD project that allows non-admin users to safely create Applications and Projects for themselves within a Kubernetes cluster.",
-                "Built a Kubernetes custom resource definition that combines Kubernetes' Role Based Access Control System with custom admin defined Project Specifications to manage ArgoCD configurations for non-admin users."
+                "Developed new feature for the ArgoCD project that allows non-admin users to create Applications and Projects within a Kubernetes cluster.",
+                "Built a Kubernetes custom resource definition that combines Kubernetes' Role Based Access Control System with admin defined Project Specifications to manage ArgoCD configurations for non-admin users."
             ]
         },
         {
