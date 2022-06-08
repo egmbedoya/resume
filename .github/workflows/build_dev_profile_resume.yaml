@@ -29,7 +29,7 @@ jobs:
       - name: Install dependencies if package-lock file was not found
         run: |
           npm i -g resume-cli
-          npm install @aceamarco/jsonresume-theme-macchiato-macea@1.0.5
+          npm install aceamarco/jsonresume-theme-macchiato-macea
 
       - name: Build recent resumes
         continue-on-error: true
