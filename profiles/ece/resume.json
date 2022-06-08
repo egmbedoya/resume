@@ -87,7 +87,8 @@
             "startDate" : "2020-08",
             "endDate" : "2020-12",
             "highlights" : [
-                "Implemented dynamic memory allocation library in C using both explicit and segregated free lists"
+                "Implemented dynamic memory allocation library in C using both explicit and segregated free lists",
+                "Implemented "
             ],
             "keywords" : ["Intro to Computer Systems"]
         }
@@ -99,9 +100,8 @@
             "startDate" : "2020-05",
             "endDate" : "",
             "highlights" : [
-                "Summer 2022: Returning intern working with the API Mangement Platform team",
-                "Summer 2021: Developed new feature for the ArgoCD project that allows non-admin users to safely create Applications and Projects for themselves within a Kubernetes cluster.",
-                "Summer 2021: Built a Kubernetes custom resource definition that combines Kubernetes' Role Based Access Control System with custom admin defined Project Specifications to manage ArgoCD configurations for non-admin users."
+                "Developed new feature for the ArgoCD project that allows non-admin users to safely create Applications and Projects for themselves within a Kubernetes cluster.",
+                "Built a Kubernetes custom resource definition that combines Kubernetes' Role Based Access Control System with custom admin defined Project Specifications to manage ArgoCD configurations for non-admin users."
             ]
         },
         {
@@ -110,8 +110,7 @@
             "startDate" : "2020-07",
             "endDate" : "2020-09",
             "highlights" : [
-                "Developed user interface for internal hosting service with the Application Infrastructure Team",
-                "Built Flask app that uses Flask API endpoints to display information about applications (statuses, teams, owners, authentication tokens, etc.)"
+                "Developed user interface using Flask API endpoints to display information about applications (statuses, teams, owners, authentication tokens, etc.)"
             ]
         }
     ]
