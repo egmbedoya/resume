@@ -52,7 +52,6 @@
     "projects" : [
         {
             "name" : "PD Temperature Controller, FSM Rollercoaster Controller",
-            "keywords": ["Fundamentals of Embedded Control"],
             "startDate" : "2022-01",
             "endDate" : "2022-05",
             "highlights" : [
@@ -60,6 +59,7 @@
                 "Developed a finite state machine controller that manages model rollercoaster carts through the track",
                 "Designed electrical circuit and built testbenches for both controllers"
             ],
+            "keywords": ["Fundamentals of Embedded Control"]
         },
         {
             "name" : "ArgoCD AppSource Controller",
