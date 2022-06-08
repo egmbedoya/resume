@@ -3,7 +3,6 @@
         "name" : "Marco Acea",
         "email" : "aceamarco@gmail.com",
         "phone" : "(786) 470-9891",
-        "website" : "https://aceamarco.github.io/resume/",
         "profiles" : [{
             "network" : "LinkedIn",
             "username" : "marco-acea",
@@ -62,7 +61,7 @@
             "keywords" : []
         },
         {
-            "name" : "FSM Controller Rollercoaster",
+            "name" : "FSM Rollercoaster Controller",
             "startDate" : "2022-01",
             "endDate" : "2022-05",
             "highlights" : [
@@ -79,11 +78,6 @@
                 "Kubernetes Custom Resource Definitions that gives under-privelaged users permission from admins to create ArgoCD applications automatically",
                 "Supports multiple ArgoCD Project \"profiles\" that limit what actions sub-users can make with their application.",
                 "Currently going through adoption proccess for the argo-proj-labs collection of vetted community projects"
-            ],
-            "keywords" : [
-                "Golang",
-                "Kubernetes",
-                "ArgoCD"
             ]
         },
         {
@@ -101,7 +95,7 @@
             "startDate" : "2021-01",
             "endDate" : "2021-05",
             "highlights" : [
-                "Designed and built my own multi-threaded Real Time Operating System (RTOS) with context switching, mutexes, and enforced fixed priority scheduling."
+                "Designed multi-threaded Real Time Operating System (RTOS) with context switching, mutexes, and enforced fixed priority scheduling."
             ],
             "keywords" : []
         },
@@ -110,7 +104,7 @@
             "startDate" : "2020-08",
             "endDate" : "2020-12",
             "highlights" : [
-                "Implemented my own dynamic memory allocation library in C using both explicit and segregated free lists"
+                "Implemented dynamic memory allocation library in C using both explicit and segregated free lists"
             ],
             "keywords" : []
         },

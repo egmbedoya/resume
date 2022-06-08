@@ -29,13 +29,13 @@ jobs:
       - name: Install dependencies if package-lock file was not found
         run: |
           npm i -g resume-cli
-          npm i jsonresume-theme-macchiato-ibic
+          npm install @aceamarco/jsonresume-theme-macchiato-macea@1.0.5
 
       - name: Build recent resumes
         continue-on-error: true
         run: |
-          resume export --resume profiles/${{matrix.resumefiles}}/resume.json --theme=jsonresume-theme-macchiato-ibic profiles/${{matrix.resumefiles}}/resume.pdf
-          resume export --resume profiles/${{matrix.resumefiles}}/resume.json --theme=jsonresume-theme-macchiato-ibic profiles/${{matrix.resumefiles}}/resume.html
+          resume export --resume profiles/${{matrix.resumefiles}}/resume.json --theme=jsonresume-theme-macchiato-macea profiles/${{matrix.resumefiles}}/resume.pdf
+          resume export --resume profiles/${{matrix.resumefiles}}/resume.json --theme=jsonresume-theme-macchiato-macea profiles/${{matrix.resumefiles}}/resume.html
 
       - name: Update resources
         uses: test-room-7/action-update-file@v1
