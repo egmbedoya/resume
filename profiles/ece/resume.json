@@ -109,7 +109,7 @@
             "startDate" : "2020-07",
             "endDate" : "2020-09",
             "highlights" : [
-                "Developed user interface using Flask API endpoints to display information about hosted applications (statuses, teams, owners, authentication tokens, etc.)"
+                "Developed user interface using Flask API endpoints to display information about hosted applications (statuses, owners, authentication tokens, etc.)"
             ]
         }
     ]
