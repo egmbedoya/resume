@@ -69,7 +69,7 @@
             "company" : "Intuit",
             "position" : "Software Engineering Intern",
             "startDate" : "2020-05",
-            "endDate" : "2020-08",
+            "endDate" : "2022-08",
             "highlights" : [
                 "Developed new feature for the ArgoCD project that allows non-admin users to safely create Applications and Projects for themselves within a Kubernetes cluster.",
                 "Built a Kubernetes custom resource definition that combines Kubernetes' Role Based Access Control System with custom admin defined Project Specifications to manage ArgoCD configurations for non-admin users."
