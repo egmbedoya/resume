@@ -53,7 +53,7 @@
     "projects" : [{
         "name" : "ArgoCD AppSource Controller",
         "startDate" : "2021-05",
-        "endDate" : "",
+        "endDate" : "2021-08",
         "highlights" : [
             "Kubernetes Custom Resource Definitions that gives under-privelaged users permission from admins to create ArgoCD applications automatically",
             "Supports multiple ArgoCD Project \"profiles\" that limit what actions sub-users can make with their application.",
