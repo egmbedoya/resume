@@ -36,8 +36,8 @@
             "Python",
             "Golang",
             "C",
-            "HTML/JS/CSS",
-            "System Verilog"
+            "Typescript",
+            "HTML/JS/CSS"
             ]
         },
         {
@@ -97,11 +97,12 @@
     "work" : [
         {
             "company" : "Intuit",
-            "position" : "Software Engineering Intern",
+            "position" : "Software Engineering Intern (Two Summers)",
             "startDate" : "2021-05",
             "endDate" : "2022-08",
             "highlights" : [
-                "Developed a new feature project, the ArgoCD AppSource Controller, for the Argo Kubernetes Organization"
+                "Developed a new feature project, the ArgoCD AppSource Controller, for the Argo Kubernetes Organization",
+                "Developed a static and dynamic query rate limiter for GraphQL services"
             ]
         },
         {
