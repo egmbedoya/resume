@@ -27,8 +27,8 @@ jobs:
       - name: Build recent resumes
         continue-on-error: true
         run: |
-          resume export --theme=jsonresume-theme-macchiato-ibic resume.pdf
-          resume export --theme=jsonresume-theme-macchiato-ibic resume.html
+          resume export --theme=jsonresume-theme-macea resume.pdf
+          resume export --theme=jsonresume-theme-macea resume.html
           mv resume.html index.html
 
       - name: Update resources
