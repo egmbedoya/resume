@@ -1,21 +1,3 @@
-# Table of Contents
-- Feature Roadmap
-- Repo Outline
-
-# Feature Roadmap
-
-## Dev Framework
-
-There should be a way to test changes to the resume before pushing it to main.
-This could be really simple, something like creating a branch and makefile functions
-to view a new rendering of our resume and then creating a PR request for changes 
-to resume.json
-
-## Create a blog site hosted on aceamarco.dev, with this resume on one of the tabs
-
-The end goal for me has always been to add my resume to personal blog page. I'd like to figure out how
-to use this repo containing my current resume + profiles to make creating a new resume easier.
-
 # Repo Outline
 
 ## resume.json

@@ -53,7 +53,7 @@
     "projects" : [{
         "name" : "ArgoCD AppSource Controller",
         "startDate" : "2021-05",
-        "endDate" : "",
+        "endDate" : "2021-08",
         "highlights" : [
             "Kubernetes Custom Resource Definitions that gives under-privelaged users permission from admins to create ArgoCD applications automatically",
             "Supports multiple ArgoCD Project \"profiles\" that limit what actions sub-users can make with their application.",
@@ -68,8 +68,8 @@
         {
             "company" : "Intuit",
             "position" : "Software Engineering Intern",
-            "startDate" : "2020-05",
-            "endDate" : "",
+            "startDate" : "2021-05",
+            "endDate" : "2022-08",
             "highlights" : [
                 "Developed new feature for the ArgoCD project that allows non-admin users to safely create Applications and Projects for themselves within a Kubernetes cluster.",
                 "Built a Kubernetes custom resource definition that combines Kubernetes' Role Based Access Control System with custom admin defined Project Specifications to manage ArgoCD configurations for non-admin users."

@@ -1,4 +1,4 @@
-name: Building New Experimental Resume
+name: Building New Resume
 on:
   push:
     branches:

@@ -1,0 +1,49 @@
+name: Building New Experimental Profile Resume
+on:
+  push:
+    branches:
+      - dev
+    paths:
+      - 'profiles/*/*.json'
+      - '.github/workflows/build_dev_profile_resume.yaml'
+
+jobs:
+  #! NOTICE: Make sure to add any new profile names to this matrix if you want it to be generated!
+  build:
+    strategy:
+        matrix:
+          resumefiles: [ece]
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: 'dev'
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '14'
+
+      - name: Install dependencies if package-lock file was not found
+        run: |
+          npm i -g resume-cli
+          npm i jsonresume-theme-macea-${{matrix.resumefiles}}
+
+      - name: Build recent resumes
+        continue-on-error: true
+        run: |
+          resume export --resume profiles/${{matrix.resumefiles}}/resume.json --theme=jsonresume-theme-macea-${{matrix.resumefiles}} profiles/${{matrix.resumefiles}}/resume.pdf
+          resume export --resume profiles/${{matrix.resumefiles}}/resume.json --theme=jsonresume-theme-macea-${{matrix.resumefiles}} profiles/${{matrix.resumefiles}}/resume.html
+
+      - name: Update resources
+        uses: test-room-7/action-update-file@v1
+        with:
+          file-path: |
+            profiles/${{matrix.resumefiles}}/resume.pdf
+            profiles/${{matrix.resumefiles}}/resume.html
+          commit-msg: Update resources
+          allow-removing: true
+          branch: dev
+          github-token: ${{ secrets.GITHUB_TOKEN }}
