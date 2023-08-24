@@ -59,7 +59,7 @@
         "highlights" : [
             "Kubernetes Custom Resource Definitions that gives under-privelaged users permission from admins to create ArgoCD applications automatically",
             "Supports multiple ArgoCD Project \"profiles\" that limit what actions sub-users can make with their application.",
-            "Currently going through adoption proccess for the argo-proj-labs collection of vetted community projects"
+            "Adopted as a part of the argo-proj-labs collection of vetted community projects"
         ],
         "keywords" : [
             "Golang",
