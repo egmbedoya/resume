@@ -36,8 +36,9 @@
             "Python",
             "Golang",
             "C",
-            "HTML/JS/CSS",
-            "System Verilog"
+            "HTML/CSS",
+            "Javascript",
+            "Typescript"
             ]
         },
         {
@@ -45,9 +46,10 @@
         "keywords" : [
             "Selenium",
             "Django",
-            "Kubernetes",
+            "GraphQL",
             "Google Firestore",
-            "Argo CD"
+            "Argo CD",
+            "Bootstrap"
         ]
     }],
     "projects" : [{
@@ -57,7 +59,7 @@
         "highlights" : [
             "Kubernetes Custom Resource Definitions that gives under-privelaged users permission from admins to create ArgoCD applications automatically",
             "Supports multiple ArgoCD Project \"profiles\" that limit what actions sub-users can make with their application.",
-            "Currently going through adoption proccess for the argo-proj-labs collection of vetted community projects"
+            "Adopted as a part of the argo-proj-labs collection of vetted community projects"
         ],
         "keywords" : [
             "Golang",
@@ -66,13 +68,23 @@
         ]}],
     "work" : [
         {
+            "company" : "Boeing",
+            "position" : "Software Engineer",
+            "startDate" : "2022-03",
+            "endDate" : "",
+            "highlights" : [
+                "Developed automated UI integration tests using Selenium for web applications which significantly improved code base test coverage",
+                "Integrated test suite to CI/CD pipeline"
+            ]
+        },
+        {
             "company" : "Intuit",
             "position" : "Software Engineering Intern",
             "startDate" : "2021-05",
             "endDate" : "2022-08",
             "highlights" : [
-                "Developed new feature for the ArgoCD project that allows non-admin users to safely create Applications and Projects for themselves within a Kubernetes cluster.",
-                "Built a Kubernetes custom resource definition that combines Kubernetes' Role Based Access Control System with custom admin defined Project Specifications to manage ArgoCD configurations for non-admin users."
+                "Developed a containerized GraphQL Proxy Service using Typescript, Docker, and Redis for optimization, that protects API services from potentially malicious incoming requests using rate limiting and static query analysis",
+                "Developed new feature for the ArgoCD project that allows non-admin users to safely create Applications and Projects for themselves within a Kubernetes cluster."
             ]
         },
         {
